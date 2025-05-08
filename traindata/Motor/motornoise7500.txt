@@ -1,0 +1,7 @@
+[Power]
+Volume = powervol7500.csv
+Frequency = powerfreq7500.csv
+
+[Brake]
+Volume = powervol7500.csv
+Frequency = powerfreq7500.csv

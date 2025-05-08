@@ -1,0 +1,21 @@
+BveTs Structure List 2.00:UTF-8
+
+#Rail类
+BallastN,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\BallastN.x
+BallastPoint,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\BallastPoint.x
+BallastPointN,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\BallastPointN.x
+Bridge1,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\Bridge1.x
+Bridge1N,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\Bridge1N.x
+Bridge2,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\Bridge2.x
+Bridge2N,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\Bridge2N.x
+Slab,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\Slab.x
+Slab2,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\Slab2.x
+Slab2N,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\Slab2N.x
+SlabExpansion,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\SlabExpansion.x
+SlabExpansionN,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\SlabExpansionN.x
+SlabN,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\SlabN.x
+SlabPoint,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\SlabPoint.x
+SlabPointN,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\SlabPointN.x
+Ballast,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\Ballast.x
+BallastExpansion,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\BallastExpansion.x
+BallastExpansionN,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\BallastExpansionN.x

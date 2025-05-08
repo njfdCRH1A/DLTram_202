@@ -1,0 +1,7 @@
+BveTs Map 2.02
+
+$hoge = 0.000000;
+
+$hoge + 0;
+Curve.SetGauge(1.435);
+Curve.SetFunction(0);

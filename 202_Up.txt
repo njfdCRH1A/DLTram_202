@@ -1,0 +1,10 @@
+BveTs Scenario 2.00:UTF-8
+
+Title = 大连有轨电车202路 小平岛前-兴工街
+Author = CRH1A-A-1186
+Route = CRH1A\Route\otozaki\Map\1001M.txt
+RouteTitle = 大连有轨电车202路
+Vehicle = 
+VehicleTitle = DL6W型/FG4型（DL3000代走）
+Image = 
+Comment = 

@@ -1,0 +1,11 @@
+BveTs Vehicle 2.00
+
+;7500形未更新車 ワンマンPI版 力行7段パラメータ
+
+PerformanceCurve = Notch\Notch_P7.txt
+Parameters = Files\Parameters_7500_3_P7.txt
+Sound = Sounds\Sound_2_oneman.cfg
+Ats32 = PI\7500(3)\detailmanager.dll
+Ats64 = PI\7500(3)\detailmanager_.dll
+MotorNoise = Motor\MotorNoise.txt
+Panel = panel\vvvf_vvvf\panel2.txt

@@ -1,0 +1,10 @@
+BveTs Vehicle 1.00
+
+;6000形 力行4段パラメータ
+
+PerformanceCurve = Notch\Notch6000_P4.txt
+Parameters = Files\Parameters_6000.txt
+Sound = Sounds\Sound6000_1.cfg
+Ats = PI\6000\No_oneman\detailmanager.dll
+Panel = panel\Panel6000_Mc(2)_P4.txt
+MotorNoise = Motor\MotorNoise6000.txt

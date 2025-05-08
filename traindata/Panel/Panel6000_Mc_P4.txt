@@ -1,0 +1,301 @@
+BveTs Instrument Panel 2.00
+
+[This]
+Resolution = 2600
+Left = 1
+Top = 170
+Right = 3072
+Bottom = 2048
+Center = 1536,1200
+Origin = 1536,1100
+
+[PilotLamp]
+Subject = true
+Location = 474, 1714
+DayTimeImage = Mc_1323\IndBase.png
+Layer = 5
+
+[PilotLamp]
+Subject = true
+Location = 0, 0
+DayTimeImage = Mc_1323\Panel1A.png
+NightTimeImage = Mc_1323\Panel2A.png
+Layer = 10
+
+[PilotLamp]
+Subject = true
+Location = 2048, 0
+DayTimeImage = Mc_1323\Panel1B.png
+NightTimeImage = Mc_1323\Panel2B.png
+Layer = 10
+
+[Needle]
+Subject = kmph
+Location = 1638, 1993
+DaytimeImage = Mc_1323\SpdNeedle.png
+Origin = 16, 256
+Radius = 270
+InitialAngle = -44.5
+LastAngle = 44.5
+Minimum = 0
+Maximum = 60
+NaturalFreq = 5.0
+DampingRatio = 0.8
+Layer = 9
+
+[Needle]
+Subject = ats19
+Location = 2292, 1616
+DaytimeImage = Mc_1323\BcNeedle.png
+NighttimeImage = Mc_1323\BcNeedleN.png
+Origin = 32, 220
+Radius = 147
+InitialAngle = -132.3
+LastAngle = 135.2
+Minimum = 0
+Maximum = 784
+NaturalFreq = 22
+DampingRatio = 1.5
+Layer = 14
+[Needle]
+Subject = ats19
+Location = 2293, 1617
+DaytimeImage = Mc_1323\BcNeedleS.png
+Origin = 32, 220
+Radius = 147
+InitialAngle = -132.3
+LastAngle = 135.2
+Minimum = 0
+Maximum = 784
+NaturalFreq = 22
+DampingRatio = 1.5
+Layer = 13
+
+[Needle]
+Subject = ats20
+Location = 2292, 1616
+DaytimeImage = Mc_1323\MrNeedle.png
+NighttimeImage = Mc_1323\MrNeedleN.png
+Origin = 32, 225
+Radius = 147
+InitialAngle = -132.3
+LastAngle = 135.2
+Minimum = 0
+Maximum = 784
+NaturalFreq = 30
+DampingRatio = 0.7
+Layer = 12
+[Needle]
+Subject = ats20
+Location = 2293, 1617
+DaytimeImage = Mc_1323\MrNeedleS.png
+Origin = 32, 225
+Radius = 147
+InitialAngle = -132.3
+LastAngle = 135.2
+Minimum = 0
+Maximum = 784
+NaturalFreq = 30
+DampingRatio = 0.7
+Layer = 11
+
+[Needle]
+Subject = amabs
+Location = 2000, 1896
+DaytimeImage = Mc_1323\SpdNeedle.png
+Origin = 16, 256
+Radius = 146
+InitialAngle = -44.2
+LastAngle = 46.5
+Minimum = 0
+Maximum = 300
+NaturalFreq = 10
+DampingRatio = 0.3
+Layer = 8
+
+;[PilotLamp]
+;Subject = 
+;Location = 1030, 1008
+;DayTimeImage = Mc_1323\High_Beam.png
+;Layer = 1
+
+;[PilotLamp]
+;Subject = true
+;Location = 468, 1024
+;DayTimeImage = Mc_1323\Low_Beam.png
+;Layer = 1
+
+[PilotLamp]
+Subject = ats40
+Location = 959, 1855
+DayTimeImage = Mc_1323\Stop.png
+Layer = 11
+
+[PilotLamp]
+Subject = ats2
+Location = 1250, 1723
+DayTimeImage = Mc_1323\Step.png
+Layer = 9
+
+[PilotLamp]
+Subject = ats4
+Location = 1875, 1722
+DayTimeImage = Mc_1323\OLR.png
+Layer = 9
+
+[PilotLamp]
+Subject = ats3
+Location = 1252, 1722
+DayTimeImage = Mc_1323\PL.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats0
+Location = 1253, 1739
+DayTimeImage = Mc_1323\FD_OPN.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats1
+Location = 1253, 1791
+DayTimeImage = Mc_1323\BD_OPN.png
+Layer = 6
+
+[DigitalNumber]
+Subject = brake
+Location = 1073, 1722
+DayTimeImage = Mc_1323\Brake.png
+Interval = 128
+Layer = 6
+
+[DigitalNumber]
+Subject = ats50
+Location = 918, 1747
+DayTimeImage = Mc_1323\Power(2).png
+Interval = 64
+Layer = 6
+
+
+
+;ワンマンモニター
+
+
+[PilotLamp];本体
+Subject = true
+Location = 600,1710
+DaytimeImage = Mc_1323\OM_MONI\OM_monitor.png
+NighttimeImage = Mc_1323\OM_MONI\OM_monitor_N.png
+Layer = 11
+
+[digitalnumber];行先(100位)
+Subject = ats10
+Location = 640,1750
+DaytimeImage = Mc_1323\OM_MONI\OM_station_digital1.png
+Interval = 30
+Layer = 12
+
+[digitalnumber];行先(10位)
+Subject = ats11
+Location = 680,1750
+DaytimeImage = Mc_1323\OM_MONI\OM_station_digital2.png
+Interval = 30
+Layer = 12
+
+[digitalnumber];行先(1位)
+Subject = ats12
+Location = 695,1750
+DaytimeImage = Mc_1323\OM_MONI\OM_station_digital2.png
+Interval = 30
+Layer = 12
+
+[digitalnumber];放送内容(1段目・番号)
+Subject = ats15
+Location = 650,1750
+DaytimeImage = Mc_1323\OM_MONI\OM_STATION1.png
+Interval = 30
+Layer = 12
+
+[PilotLamp];放送中(再生中)
+Subject = ats16
+Location = 650,1750
+DaytimeImage = Mc_1323\OM_MONI\OM_PLAY.png
+Layer = 12
+
+[digitalnumber];放送内容(2段目・名称)
+Subject = ats15
+Location = 640,1780
+DaytimeImage = Mc_1323\OM_MONI\OM_STATION2.png
+Interval = 30
+Layer = 12
+
+[digitalnumber];行先(始点)
+Subject = ats12
+Location = 640,1810
+DaytimeImage = Mc_1323\OM_MONI\OM_DIGITAL1.png
+Interval = 30
+Layer = 12
+
+[digitalnumber];行先(終点)
+Subject = ats11
+Location = 740,1810
+DaytimeImage = Mc_1323\OM_MONI\OM_DIGITAL2.png
+Interval = 30
+Layer = 12
+
+[digitalnumber];デジタル時計(時)
+Subject = ats37
+Location = 640,1840
+DaytimeImage = Mc_1323\OM_MONI\OM_DIGITAL_TIME.png
+Interval = 30
+Layer = 12
+[digitalnumber];デジタル時計(秒/コロン)
+Subject = ats39
+Location = 670,1840
+DaytimeImage = Mc_1323\OM_MONI\OM_DIGITAL_TIME2.png
+Interval = 30
+Layer = 12
+[digitalnumber];デジタル時計(分)
+Subject = ats38
+Location = 685,1840
+DaytimeImage = Mc_1323\OM_MONI\OM_DIGITAL_TIME.png
+Interval = 30
+Layer = 12
+
+[PilotLamp]
+Subject = ats42
+Location = 512, 950
+DayTimeImage = HL_OFF.png
+NightTimeImage = HL_HI.png
+Layer = 1
+
+[PilotLamp]
+Subject = ats41
+Location = 512, 1160
+DayTimeImage = HL_OFF.png
+NightTimeImage = HL_LO.png
+Layer = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+BveTs Vehicle Parameters 2.01:shift-jis
+FirstCar = M
+LoadCompensating = false
+
+[Cab]
+BrakeNotchCount = 2
+PowerNotchCount = 4
+HoldingSpeedNotchCount = 7
+MotorBrakeNotch = 10
+AtsCancelNotch = 1
+BrakeText = 弛め,重なり,込め,早込め
+PowerText = 切,電動1,電動2-3,電動4-5,電動6-7
+HoldingSpeedText = 切,ﾌﾞﾚｰｷ1,ﾌﾞﾚｰｷ2,ﾌﾞﾚｰｷ3,ﾌﾞﾚｰｷ4,ﾌﾞﾚｰｷ5,ﾌﾞﾚｰｷ6,非常
+
+[MainCircuit]
+RegenerationLimit = 0
+LeverDelay = 0.55
+BrakePriority = false
+
+[Cl]
+MaximumPressure = 300000
+SapBcRatio = 0.9
+SapBcoffset = 0
+BpInitialPressure = 130000
+LeverDelay = 0
+
+[Er]
+VolumeRatio = 100000
+RapidReleaseSpeed = 300
+ReleaseSpeed = 200
+ApplySpeed = 350 
+
+[Bp]
+VolumeRatio = 100000
+ReleaseSpeed = 10000
+ApplySpeed = 10000 
+
+[Bc]
+ApplySpeed = 1000
+ReleaseSpeed = 400
+VolumeRatio = 13
+ApplyStart = 0
+ApplyStop = 0
+ReleaseStart = 0
+ReleaseStop = 0
+
+[Brake]
+PistonArea = 0.44
+ShoeFriction = 0.4, 0.001, 0.05
+
+[Compressor]
+UpperPressure = 475000
+LowerPressure = 415000
+CompressionSpeed = 2200
+
+[Dynamics]
+MotorcarWeight = 17000
+MotorcarCount = 0.5
+TrailerWeight = 17000
+TrailerCount = 0.5
+CarLength = 12.5
+
+[Passengers]
+Capacity = 90
+
+[ViewPoint]
+X = -0.4
+Y = 2
+Z = -1

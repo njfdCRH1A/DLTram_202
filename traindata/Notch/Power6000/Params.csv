@@ -1,0 +1,13 @@
+BveTs Vehicle Performance Table 2.00:shift_jis,,,,,,,,
+#,sir1,sir2,sir3,sir4,par1,par2,par3,par4
+BreakerDelay_On,0,0,0,0,0,0,0,0
+BreakerDelay_Off,0,0,0,0,0,0,0,0
+CurrentReducingTime,0,0,0,0,0,0,0,0
+JerkRegulation_Up,0,0,0,0,0,0,0,0
+JerkRegulation_Down,0,0,0,0,0,0,0,0
+RequiredNotch_Up,2,2,2,3,3,4,4,5
+RequiredNotch_Down,0,0,0,1,1,2,2,3
+Stepdelay_Up,0.2,0.5,0.5,0.5,1,0.5,1,0.5
+Stepdelay_Down,0.2,0.5,0.5,0.4,0.4,0.4,0.4,0.4
+CurrentLimitingValue_Empty,120,120,130,200,200,200,200,200
+CurrentLimitingValue_Full,120,120,130,200,200,200,200,200

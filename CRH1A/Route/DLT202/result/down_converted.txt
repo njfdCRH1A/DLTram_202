@@ -1,0 +1,41 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$hoge = 0.000000;
+
+# Track['down'].X
+$hoge + 0.000;
+Track['down'].X.Interpolate(-3.036,0.000);
+$hoge + 1497.715;
+Track['down'].X.Interpolate(-3.036,0.000);
+
+# Track['down'].Y
+$hoge + 0.000;
+Track['down'].Y.Interpolate(0.000,0.000);
+$hoge + 1497.715;
+Track['down'].Y.Interpolate(0.000,0.000);
+
+# Track['down'].Cant.Interpolate
+$hoge + 0.000;
+Track['down'].Cant.Interpolate(0.000);
+$hoge + 1497.715;
+Track['down'].Cant.Interpolate(0.000);
+
+# Track['down'].Cant.SetFunction
+$hoge + 0.000;
+Track['down'].Cant.SetFunction(0);
+$hoge + 1497.715;
+Track['down'].Cant.SetFunction(0);
+
+# Track['down'].Cant.SetCenter
+$hoge + 0.000;
+Track['down'].Cant.SetCenter(0.000);
+$hoge + 1497.715;
+Track['down'].Cant.SetCenter(0.000);
+
+# Track['down'].Cant.SetGauge
+$hoge + 0.000;
+Track['down'].Cant.SetGauge(1.435);
+$hoge + 1497.715;
+Track['down'].Cant.SetGauge(1.435);
+
