@@ -6,8 +6,8 @@ Structure.Load('Structure\Structure.txt');
 include 'up.txt';
 
 0;
-Repeater['up'].Begin0('up',3,5,5,'Ballast');
-Repeater['down'].Begin0('down',3,5,5,'Ballast');
+Repeater['up'].Begin0('up',3,1,1,'202Slab1');
+Repeater['down'].Begin0('down',3,1,1,'202Slab1');
 Track['down'].Position(-4,0);
 
 #停车位置

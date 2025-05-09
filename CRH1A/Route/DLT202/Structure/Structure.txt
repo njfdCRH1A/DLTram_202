@@ -19,3 +19,5 @@ SlabPointN,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\SlabPointN.x
 Ballast,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\Ballast.x
 BallastExpansion,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\BallastExpansion.x
 BallastExpansionN,..\..\..\..\Nagoya_Common\Railway_Obj\Rail\Han_Line\BallastExpansionN.x
+202Slab1,DLT202\rail\Slab1.x
+202Slab2,DLT202\rail\Slab2.x
